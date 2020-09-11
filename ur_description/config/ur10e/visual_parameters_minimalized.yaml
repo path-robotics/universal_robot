@@ -23,22 +23,22 @@ mesh_files:
 
   upper_arm:
     visual:
-      mesh: "package://ur_description/meshes/ur16e/visual/upperarm.dae"
+      mesh: "package://ur_description/meshes/ur10e/visual/upperarm.dae"
       material:
         name: "LightGrey"
         color: "0.7 0.7 0.7 1.0"
     collision:
-      mesh: "package://ur_description/meshes/ur16e/collision/upperarm_minimalized.stl"
+      mesh: "package://ur_description/meshes/ur10e/collision/upperarm_minimalized.stl"
       mesh_files:
 
   forearm:
     visual:
-      mesh: "package://ur_description/meshes/ur16e/visual/forearm.dae"
+      mesh: "package://ur_description/meshes/ur10e/visual/forearm.dae"
       material:
         name: "LightGrey"
         color: "0.7 0.7 0.7 1.0"
     collision:
-      mesh: "package://ur_description/meshes/ur16e/collision/forearm_minimalized.stl"
+      mesh: "package://ur_description/meshes/ur10e/collision/forearm_minimalized.stl"
 
   wrist_1:
     visual:
