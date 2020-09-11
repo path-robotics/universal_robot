@@ -57,7 +57,7 @@ mesh_files:
         name: "LightGrey"
         color: "0.7 0.7 0.7 1.0"
     collision:
-      mesh: "package://ur_description/meshes/ur10e/collision/wrist2_minimalized_convex_hull.stl"
+      mesh: "package://ur_description/meshes/ur10e/collision/wrist2_minimalized.stl"
     visual_offset: -0.12
 
   wrist_3:
