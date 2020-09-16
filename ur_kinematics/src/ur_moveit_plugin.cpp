@@ -72,7 +72,7 @@
 
 /* Author: Sachin Chitta, David Lu!!, Ugo Cupcic */
 
-#include <class_loader/class_loader.h>
+#include <class_loader/class_loader.hpp>
 
 //#include <tf/transform_datatypes.h>
 #include <tf_conversions/tf_kdl.h>
@@ -171,7 +171,7 @@ bool URKinematicsPlugin::initialize(const std::string &robot_description,
                                      const std::string& tip_frame,
                                      double search_discretization)
 {
-  setValues(robot_description, group_name, base_frame, tip_frame, search_discretization);
+  setValues(robot_description, group_name, base_frame, std::vector<std::string>{tip_frame}, search_discretization);
 
   rdf_loader::RDFLoader rdf_loader(robot_description_);
   const srdf::ModelSharedPtr &srdf = rdf_loader.getSRDF();

@@ -1,0 +1,71 @@
+# Visualisation
+# Uses less true to life but far smaller collision meshes.
+# The name of this file should be <default_name>_minimalized.yaml, where the default name is the non-minimalized parameter file.
+
+mesh_files:
+  base:
+    visual:
+      mesh: "package://ur_description/meshes/ur10e/visual/base.dae"
+      material:
+        name: "LightGrey"
+        color: "0.7 0.7 0.7 1.0"
+    collision:
+      mesh: "package://ur_description/meshes/ur10e/collision/base_minimalized_convex_hull.stl"
+
+  shoulder:
+    visual:
+      mesh: "package://ur_description/meshes/ur10e/visual/shoulder.dae"
+      material:
+        name: "LightGrey"
+        color: "0.7 0.7 0.7 1.0"
+    collision:
+      mesh: "package://ur_description/meshes/ur10e/collision/shoulder_minimalized_convex_hull.stl"
+
+  upper_arm:
+    visual:
+      mesh: "package://ur_description/meshes/ur10e/visual/upperarm.dae"
+      material:
+        name: "LightGrey"
+        color: "0.7 0.7 0.7 1.0"
+    collision:
+      mesh: "package://ur_description/meshes/ur10e/collision/upperarm_minimalized.stl"
+      mesh_files:
+
+  forearm:
+    visual:
+      mesh: "package://ur_description/meshes/ur10e/visual/forearm.dae"
+      material:
+        name: "LightGrey"
+        color: "0.7 0.7 0.7 1.0"
+    collision:
+      mesh: "package://ur_description/meshes/ur10e/collision/forearm_minimalized.stl"
+
+  wrist_1:
+    visual:
+      mesh: "package://ur_description/meshes/ur10e/visual/wrist1.dae"
+      material:
+        name: "LightGrey"
+        color: "0.7 0.7 0.7 1.0"
+    collision:
+      mesh: "package://ur_description/meshes/ur10e/collision/wrist1_minimalized_convex_hull.stl"
+    visual_offset: -0.135
+
+  wrist_2:
+    visual:
+      mesh: "package://ur_description/meshes/ur10e/visual/wrist2.dae"
+      material:
+        name: "LightGrey"
+        color: "0.7 0.7 0.7 1.0"
+    collision:
+      mesh: "package://ur_description/meshes/ur10e/collision/wrist2_minimalized.stl"
+    visual_offset: -0.12
+
+  wrist_3:
+    visual:
+      mesh: "package://ur_description/meshes/ur10e/visual/wrist3.dae"
+      material:
+        name: "LightGrey"
+        color: "0.7 0.7 0.7 1.0"
+    collision:
+      mesh: "package://ur_description/meshes/ur10e/collision/wrist3_minimalized_convex_hull.stl"
+    visual_offset: -0.1168
